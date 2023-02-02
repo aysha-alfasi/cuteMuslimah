@@ -2,45 +2,33 @@ body {
     background-color: #ffe6ee;
 }
 
-.headershoot-wrapper {
+.container {
 
-    align-items: center;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 3rem 0;
+    justify-content: center;
 }
 
-
-.headershoot {
-
-    border-radius: 50%;
+.headershoot2 {
     max-width: 200px;
-    width: 70%;
+    width: 50%;
+    justify-content: center;
+    flex:50;
+    align-content: center;
+    margin-top: 1rem;
+
+
 }
 
-h1 {
-
-    color: rgb(255, 174, 201);
-    font-family:cursive;
-}
-
-h3 {
-    padding-top: 1px;
-    font-size: 16px;
-	text-align: center;
-font-family:cursive;
-color: #A5A5A5 ;
-}
 .The-btn {
 
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    
 }
 
 
-    .me-btn {
+    .me-btn1, .me-btn2 {
 
         color: white;
         background-color: #fca1bc;
@@ -53,40 +41,59 @@ color: #A5A5A5 ;
         /* box-shadow: 0 5px 20px rgb(0 0 0 / 30%); */
         }
 
-        .me-btn:hover {
+        .me-btn1:hover, .me-btn2:hover {
             background-color:#FFD1E8 ;
         }
+
+        .me-btn1 {
+
+            margin-right: 20px;
+        }
+
+        p {
+
+            font-family: monospace; 
+            display: block;
+            margin: auto;
+            text-align: center;
+            color: #ff6a9c;
+            margin-top: 270px;
         
-p {
+        }
 
-    font-family: monospace; 
-    display: block;
-    margin: auto;
-    text-align: center;
-    color: #ff6a9c;
-    margin-top: 50px;
 
-}
-
-@media screen and (max-width:767px) {
-	body {
-
-        width: 100%;
-    }
-
-    .headershoot-wrapper {
+        @media screen and (max-width:767px) {
+            body {
         
-        width: 100%;
-        padding: 1rem 0;
-    }
+                width: 100%;
+                }
 
-    .The-btn {
+            .headershoot2 {
 
-        margin-top: 1rem;
-    }
-    p {
+                width: 100%;
+                margin-top: 3rem;
+            }
 
-        margin-top: 150px;
-    }
-	
-}
+            .The-btn {
+                width: 100%;
+            }
+
+            .me-btn1, .me-btn2 {
+
+                padding: 1rem 1rem; 
+
+            }
+
+            .me-btn1 {
+
+                /* margin-right: 20px;  */
+            }
+
+            p {
+
+        
+            margin-top: 270px;
+            
+            }
+
+            }
