@@ -1,0 +1,233 @@
+body {
+    background-color: #ffe6ee;
+}
+.container {
+
+    background-color: #ffe6ee;
+    padding: 4rem 1rem;
+    padding-top: 1px;
+    
+}
+
+.services, .container2  {
+
+    background-color: #ffe6ee;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.headershoot2 {
+    max-width: 200px;
+    width: 50%;
+    justify-content: center;
+    flex:50;
+
+}
+
+.theExample {
+
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2, h5 {
+
+    text-align: center;
+    color:rgb(255, 89, 158);
+    font-family: cursive;
+
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:stretch;	 
+    }
+    
+    .row::after {
+    display: table;
+        clear: both;
+        content: "";
+        
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 { width: 16.66%;}
+    .col-3 { width: 25%;}
+    .col-4 { width: 33.33%;}
+    .col-5 { width: 41.66%;}
+    .col-6 { width: 50%;}
+    .col-7 { width: 58.33%;}
+    .col-8 { width: 66.66%;}
+    .col-9 { width: 75%;}
+    .col-10 { width: 83.33%;}
+    .col-11 { width: 91.66%;}
+    .col-12 { width: 100%;}
+    
+    * {
+        
+        box-sizing: border-box;
+    }
+    div.box {
+        text-align: center;
+        margin: 24px;
+        padding: 36px 24px 40px 24px;
+        border-radius: 7px;
+    background-color: #fff;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+            0 2px 3px 0 rgba(0,0,0,.1);
+    }
+
+    div.leftSide-col {
+	
+        margin-left: 15%;
+        }
+        
+        div.rightSide-col {
+            
+        margin-left: 25%;
+        }
+
+        div.imeges {
+            width: 100%;
+            display: block;
+            margin: auto;	
+        
+
+            }
+        
+        p {
+
+            font-family: cursive;
+            color: darkgrey;
+        }
+
+        .Download-btn {
+
+            color: white;
+            background-color: #94ee9c;
+            font-size: 18px;
+            font-family:cursive;
+            border:rgb(255, 255, 255);
+            padding: 1rem 2rem;
+            margin-top: 1%;
+            border-radius: 5px;
+            cursor: pointer;
+            /* box-shadow: 0 5px 20px rgb(0 0 0 / 30%); */
+            }
+            .Download-btn:hover {
+
+                background-color:#59d864;
+            }
+
+        h5 {
+        text-align: center;
+        font-size: xx-large;
+        
+        }
+
+
+        .large {
+
+            font-size: 20px;
+            color: rgb(141, 138, 138);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            
+        }
+
+        .large img {
+
+            border-radius: 10%;
+        }
+
+        .Container4 {
+
+            padding-top: 10%;
+        }
+        .container10 p {
+
+                font-family: monospace; 
+                display: block;
+                margin: auto;
+                text-align: center;
+                color: #ff6a9c;
+            
+            
+        }
+        
+
+    
+
+
+            
+
+
+        /* Mobile */
+
+
+        @media screen and (max-width: 680px) {
+
+            
+        
+        .col-6,.col-4,.col-7,.col-5 {
+            width: 100%;
+            margin: 0;
+            }
+            
+            div.mobileStack {
+                
+                width: 40%;
+                display: block;
+            }
+            
+            div.box {
+            padding: 5px;
+            display: block;
+                
+                
+            }
+
+            div.slopeImeges {
+		
+                margin: 10px;	
+            }
+            
+            .images {
+                
+                width: 100%;
+                padding: 5px;
+            display: block;
+
+            }
+
+
+            
+            
+            div.leftSide-col,
+            div.rightSide-col {
+                
+                margin: 15px;
+            }
+                }
+
+            @media only screen and (max-width: 700px) {
+                
+
+            
+            }
+            
+            @media only screen and (max-width: 500px) {
+                
+
+            
+            }
