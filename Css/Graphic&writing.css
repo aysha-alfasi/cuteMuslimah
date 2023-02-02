@@ -18,10 +18,14 @@ body {
 }
 
 .headershoot2 {
-    max-width: 200px;
+	
+    max-width: 120px;
     width: 50%;
     justify-content: center;
     flex:50;
+    align-content: center;
+    margin-top: 1rem;
+    width: 50%;
 
 }
 
