@@ -1,0 +1,150 @@
+
+body {
+    background-color: #ffe6ee;
+}
+.container {
+
+    background-color: #ffe6ee;
+    padding: 4rem 1rem;
+    padding-top: 1px;
+    
+}
+
+/* Nav */
+
+nav{
+	width: 100%;
+	margin: 0;
+    
+}
+nav ul {
+	background-color:  #ffe6ee;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+ul.topnav li {
+list-style: none;
+	float: left;
+    
+}
+
+ul.topnav li.topnav-right {
+	float:inline-start;
+}
+
+ul.topnav li a {
+display: block;
+	text-decoration: none;
+	min-height: 16px;
+	text-align: center;
+	padding: 14px;
+	text-transform: uppercase;
+	color:   #999999;	
+}
+
+ul.topnav li a:hover {
+background-color:  #ff99b9;
+	color: #eee;
+	
+}
+ul.topnav li.dropdownIcon {
+	display: none;
+}
+
+/* Header */
+
+header {
+
+    display: flex;
+    justify-content: center;
+}
+
+.headershoot-wrapper {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+
+.headershoot {
+
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+
+h1 {
+
+    color: rgb(255, 174, 201);
+    font-family:cursive;
+}
+
+h3 {
+    padding-top: 1px;
+    font-size: 16px;
+	text-align: center;
+font-family:cursive;
+color: #A5A5A5 ;
+}
+.The-btn {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+    .me-btn {
+
+        color: white;
+        background-color: #fca1bc;
+        font-size: 18px;
+        font-family:cursive;
+        border:rgb(255, 255, 255);
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        /* box-shadow: 0 5px 20px rgb(0 0 0 / 30%); */
+        }
+
+        .me-btn:hover {
+            background-color:#FFD1E8 ;
+        }
+
+/* Second Sec */
+
+/* .services, .container2  {
+
+    background-color: #ffe6ee;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+} */
+
+.headershoot2 {
+    max-width: 200px;
+    width: 50%;
+    justify-content: center;
+    flex:50;
+
+}
+
+.container3 {
+
+    background-color: #ffe6ee;
+    padding: 1rem 1rem;
+}
+
+p {
+
+    font-family: monospace; 
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #ff6a9c;
+
+}
