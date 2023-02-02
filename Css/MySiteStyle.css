@@ -150,3 +150,8 @@ p {
 
 }
 
+@media screen and (max-width:767px) {
+	.headershoot-wrapper {
+		width:100%;
+	}
+}
