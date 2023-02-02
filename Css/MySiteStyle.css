@@ -151,8 +151,8 @@ p {
 }
 
 @media screen and (max-width:767px) {
-	.headershoot {
-		width:200%;
+	body {
+		width:100%;
 	}
 	
 }
