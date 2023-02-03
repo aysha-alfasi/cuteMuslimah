@@ -29,6 +29,20 @@ body {
 
 }
 
+.headershoot3 {
+	
+    max-width: 200px;
+    width: 170%;
+    justify-content: center;
+    flex:50;
+    align-content: center;
+    margin-top: 1rem;
+    width: 50%;
+
+}
+
+
+
 .theExample {
 
     max-width: 400px;
