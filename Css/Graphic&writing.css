@@ -29,6 +29,11 @@ body {
 
 }
 
+.imageContainer2 {
+
+    max-width: 500px;
+}
+
 
 
 
@@ -156,6 +161,10 @@ h2, h5 {
 
             border-radius: 10%;
         }
+
+        .imageContainer2 {
+		
+		width: 80px
 
         .Container4 {
 
